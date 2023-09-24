@@ -1,0 +1,248 @@
+[
+      {
+        "state":"Gujrat",
+        "name": "Rani Ki Vav",
+        "city": "Patan",
+        "url": "https://example.com/images/rani-ki-vav.jpg",
+        "location": "https://maps.google.com/?q=Rani+Ki+Vav"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Champaner-Pavagadh Archaeological Park",
+        "city": "Pavagadh",
+        "url": "https://example.com/images/champaner-pavagadh.jpg",
+        "location": "https://maps.google.com/?q=Champaner-Pavagadh+Archaeological+Park"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Vijay Vilas Palace",
+        "city": "Mandvi",
+        "url": "https://example.com/images/vijay-vilas-palace.jpg",
+        "location": "https://maps.google.com/?q=Vijay+Vilas+Palace"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Gandhi Ashram",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/gandhi-ashram.jpg",
+        "location": "https://maps.google.com/?q=Gandhi+Ashram"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Sarkhej Roza",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/sarkhej-roza.jpg",
+        "location": "https://maps.google.com/?q=Sarkhej+Roza"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Dholavira",
+        "city": "Kutch",
+        "url": "https://example.com/images/dholavira.jpg",
+        "location": "https://maps.google.com/?q=Dholavira"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Girnar",
+        "city": "Junagadh",
+        "url": "https://example.com/images/girnar.jpg",
+        "location": "https://maps.google.com/?q=Girnar"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Dumas Beach",
+        "city": "Surat",
+        "url": "https://example.com/images/dumas-beach.jpg",
+        "location": "https://maps.google.com/?q=Dumas+Beach"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Kutch Desert Wildlife Sanctuary",
+        "city": "Kutch",
+        "url": "https://example.com/images/kutch-desert-wildlife-sanctuary.jpg",
+        "location": "https://maps.google.com/?q=Kutch+Desert+Wildlife+Sanctuary"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Shri Swaminarayan Akshardham Temple",
+        "city": "Gandhinagar",
+        "url": "https://example.com/images/akshardham-temple.jpg",
+        "location": "https://maps.google.com/?q=Shri+Swaminarayan+Akshardham+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Jamnagar Lakhota Palace",
+        "city": "Jamnagar",
+        "url": "https://example.com/images/jamnagar-lakhota-palace.jpg",
+        "location": "https://maps.google.com/?q=Jamnagar+Lakhota+Palace"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Ambaji Temple",
+        "city": "Ambaji",
+        "url": "https://example.com/images/ambaji-temple.jpg",
+        "location": "https://maps.google.com/?q=Ambaji+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Sidi Saiyyed Mosque",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/sidi-saiyyed-mosque.jpg",
+        "location": "https://maps.google.com/?q=Sidi+Saiyyed+Mosque"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Hathisingh Jain Temple",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/hathisingh-jain-temple.jpg",
+        "location": "https://maps.google.com/?q=Hathisingh+Jain+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Vadnagar",
+        "city": "Vadnagar",
+        "url": "https://example.com/images/vadnagar.jpg",
+        "location": "https://maps.google.com/?q=Vadnagar"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Kankaria Lake",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/kankaria-lake.jpg",
+        "location": "https://maps.google.com/?q=Kankaria+Lake"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Haji Ali Dargah",
+        "city": "Mumbai",
+        "url": "https://example.com/images/haji-ali-dargah.jpg",
+        "location": "https://maps.google.com/?q=Haji+Ali+Dargah"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Rani Padmini's Palace",
+        "city": "Chittorgarh",
+        "url": "https://example.com/images/rani-padmini-palace.jpg",
+        "location": "https://maps.google.com/?q=Rani+Padmini's+Palace"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Kusum Vilas Palace",
+        "city": "Chhota Udepur",
+        "url": "https://example.com/images/kusum-vilas-palace.jpg",
+        "location": "https://maps.google.com/?q=Kusum+Vilas+Palace"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Saputara Hill Station",
+        "city": "Saputara",
+        "url": "https://example.com/images/saputara-hill-station.jpg",
+        "location": "https://maps.google.com/?q=Saputara+Hill+Station"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Palitana Temples",
+        "city": "Palitana",
+        "url": "https://example.com/images/palitana-temples.jpg",
+        "location": "https://maps.google.com/?q=Palitana+Temples"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Udvada",
+        "city": "Udvada",
+        "url": "https://example.com/images/udvada.jpg",
+        "location": "https://maps.google.com/?q=Udvada"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Rukmini Devi Temple",
+        "city": "Dwarka",
+        "url": "https://example.com/images/rukmini-devi-temple.jpg",
+        "location": "https://maps.google.com/?q=Rukmini+Devi+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Lakhpat Fort",
+        "city": "Lakhpat",
+        "url": "https://example.com/images/lakhpat-fort.jpg",
+        "location": "https://maps.google.com/?q=Lakhpat+Fort"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Nalsarovar Bird Sanctuary",
+        "city": "Nalsarovar",
+        "url": "https://example.com/images/nalsarovar-bird-sanctuary.jpg",
+        "location": "https://maps.google.com/?q=Nalsarovar+Bird+Sanctuary"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Junagadh Fort",
+        "city": "Junagadh",
+        "url": "https://example.com/images/junagadh-fort.jpg",
+        "location": "https://maps.google.com/?q=Junagadh+Fort"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Modhera Sun Temple",
+        "city": "Modhera",
+        "url": "https://example.com/images/modhera-sun-temple.jpg",
+        "location": "https://maps.google.com/?q=Modhera+Sun+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Lothal",
+        "city": "Lothal",
+        "url": "https://example.com/images/lothal.jpg",
+        "location": "https://maps.google.com/?q=Lothal"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Adalaj Stepwell",
+        "city": "Gandhinagar",
+        "url": "https://example.com/images/adalaj-stepwell.jpg",
+        "location": "https://maps.google.com/?q=Adalaj+Stepwell"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Sardar Vallabhbhai Patel Statue",
+        "city": "Kevadia",
+        "url": "https://example.com/images/sardar-patel-statue.jpg",
+        "location": "https://maps.google.com/?q=Sardar+Patel+Statue"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Laxmi Vilas Palace",
+        "city": "Vadodara",
+        "url": "https://example.com/images/laxmi-vilas-palace.jpg",
+        "location": "https://maps.google.com/?q=Laxmi+Vilas+Palace"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Sasan Gir",
+        "city": "Junagadh",
+        "url": "https://example.com/images/sasan-gir.jpg",
+        "location": "https://maps.google.com/?q=Sasan+Gir"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Sun Temple, Modhera",
+        "city": "Modhera",
+        "url": "https://example.com/images/sun-temple-modhera.jpg",
+        "location": "https://maps.google.com/?q=Sun+Temple,+Modhera"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Hutheesing Jain Temple",
+        "city": "Ahmedabad",
+        "url": "https://example.com/images/hutheesing-jain-temple.jpg",
+        "location": "https://maps.google.com/?q=Hutheesing+Jain+Temple"
+      },
+      {
+        "state":"Gujrat",
+        "name": "Dwarkadhish Temple",
+        "city": "Dwarka",
+        "url": "https://example.com/images/dwarkadhish-temple.jpg",
+        "location": "https://maps.google.com/?q=Dwarkadhish+Temple"
+      }
+    ]
+  
