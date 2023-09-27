@@ -9,7 +9,7 @@ const dataRouter = require('./routes/route');
 // some error in console
 
 app.get('/',(req,res)=>{
-    res.send('Server is Live....');
+    res.send('Welcome to API Hub');
 })
 
 app.use('/data',dataRouter);
