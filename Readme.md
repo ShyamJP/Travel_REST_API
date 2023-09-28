@@ -99,24 +99,16 @@ The API response will include the following fields:
 ## Sample Requests and Responses
 
 ### Get All Data
-
-```http
+    `https`
     GET https://travel-rest-api.onrender.com/data
 
 ## Get a specific data by name
 
-    ### Request ex.
-
-    `GET https://travel-rest-api.onrender.com/data?name=junagadh`
+### Request ex.
+`GET https://travel-rest-api.onrender.com/data?name=junagadh`
 
 ### Response
-
-    HTTP/1.1 200 OK
-    Status: 200 OK
-    Content-Type: application/json
-    Content-Length: 36
-
-    {
+ {
         "_id": "650eee335b85c5588ba52b94",
         "name": "Junagadh Fort",
         "state": "Gujrat",
@@ -124,13 +116,13 @@ The API response will include the following fields:
         "url": "https://example.com/images/junagadh-fort.jpg",
         "location": "https://maps.google.com/?q=Junagadh+Fort",
         "__v": 0
-    }
+}
 
 ## Get a specific data by state
 
-    ### Request ex.
+### Request ex.
 
-    `GET https://travel-rest-api.onrender.com/data?state=Gujrat`
+`GET https://travel-rest-api.onrender.com/data?state=Gujrat`
 
 ### Response
 
@@ -148,11 +140,9 @@ The API response will include the following fields:
         "location": "https://maps.google.com/?q=Rani+Ki+Vav",
         "__v": 0
     }
-
 ## Get a specific data by city
 
-    ### Request ex.
-
+### Request ex. 
     `GET https://travel-rest-api.onrender.com/data?city=ahmedabad`
 
 ### Response
@@ -171,10 +161,9 @@ The API response will include the following fields:
         "location": "https://maps.google.com/?q=Gandhi+Ashram",
         "__v": 0
     }
+#### You can search similar  or incomplete word in any field than also you can show data this is feature of this REST API
 
-##You can search similar  or incomplete word in any field than also you can show data this is feature of this REST API
-
-    ###Examples
+## Examples
 
         `GET https://travel-rest-api.onrender.com/data?name=gandh`
 
