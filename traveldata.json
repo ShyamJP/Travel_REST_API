@@ -115,7 +115,7 @@
         "state":"Gujrat",
         "name": "Vadnagar",
         "city": "Vadnagar",
-        "url": "https://example.com/images/vadnagar.jpg",
+        "url": "https://www.gujarattourism.com/content/dam/gujrattourism/images/destinations/mehsana/vadnagar/vadnagar-kirti-toran/vadnagar-2.jpg",
         "location": "https://maps.google.com/?q=Vadnagar"
       },
       {
@@ -164,7 +164,7 @@
         "state":"Gujrat",
         "name": "Udvada",
         "city": "Udvada",
-        "url": "https://example.com/images/udvada.jpg",
+        "url": "https://www.gujarattourism.com/content/dam/gujrattourism/images/religious-sites/udvada-parsi%2C-udvada/Udvada-Parsi%2C-Udvada-Thumbnail.jpg",
         "location": "https://maps.google.com/?q=Udvada"
       },
       {
@@ -213,7 +213,7 @@
         "state":"Gujrat",
         "name": "Lothal",
         "city": "Lothal",
-        "url": "https://example.com/images/lothal.jpg",
+        "url": "https://www.gujarattourism.com/content/dam/gujrattourism/images/heritage-sites/lothal/Lothal-Banner.jpg",
         "location": "https://maps.google.com/?q=Lothal"
       },
       {
@@ -234,36 +234,29 @@
         "state":"Gujrat",
         "name": "Laxmi Vilas Palace",
         "city": "Vadodara",
-        "url": "https://example.com/images/laxmi-vilas-palace.jpg",
+        "url": "https://images.unsplash.com/photo-1677648626156-acad341ce207?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1633&q=80",
         "location": "https://maps.google.com/?q=Laxmi+Vilas+Palace"
       },
       {
         "state":"Gujrat",
         "name": "Sasan Gir",
         "city": "Junagadh",
-        "url": "https://example.com/images/sasan-gir.jpg",
+        "url": "https://media.istockphoto.com/id/1612027445/photo/beautiful-landscape-of-mountain-green-forest-or-jungle-with-mountain-heel-and-cloud-sky-post.jpg?s=1024x1024&w=is&k=20&c=YwwfDOUMlTlFSfAt9uEoZjvpMuaU1qIz5TqFTFAWu84=",
         "location": "https://maps.google.com/?q=Sasan+Gir"
       },
       {
         "state":"Gujrat",
         "name": "Sun Temple, Modhera",
         "city": "Modhera",
-        "url": "https://example.com/images/sun-temple-modhera.jpg",
+        "url": "https://images.unsplash.com/photo-1573131615374-9b754dfeeb0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
         "location": "https://maps.google.com/?q=Sun+Temple,+Modhera"
       },
       {
         "state":"Gujrat",
         "name": "Hutheesing Jain Temple",
         "city": "Ahmedabad",
-        "url": "https://example.com/images/hutheesing-jain-temple.jpg",
+        "url": "https://media.istockphoto.com/id/636412880/photo/hutheesing-temple-in-ahmadabad.jpg?s=1024x1024&w=is&k=20&c=VwHsBT7ZBy7dbPgIxUoDKNOdwqodjNz7w2mYBxP5frc=",
         "location": "https://maps.google.com/?q=Hutheesing+Jain+Temple"
-      },
-      {
-        "state":"Gujrat",
-        "name": "Dwarkadhish Temple",
-        "city": "Dwarka",
-        "url": "https://example.com/images/dwarkadhish-temple.jpg",
-        "location": "https://maps.google.com/?q=Dwarkadhish+Temple"
       }
     ]
   
