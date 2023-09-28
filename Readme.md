@@ -63,15 +63,16 @@ The API provides the following endpoints:
     http://localhost:5000/data
 
 ### Response
-{  
-"_id": "650eee335b85c5588ba52b7b",
-"name": "Rani Ki Vav",
-"state": "Gujrat",
-"city": "Patan",
-"url": "https://example.com/images/rani-ki-vav.jpg",
-"location": "https://maps.google.com/?q=Rani+Ki+Vav",
-"__v": 0
-},
+  {  
+    "_id": "650eee335b85c5588ba52b7b",
+    "name": "Rani Ki Vav",
+    "state": "Gujrat",
+    "city": "Patan",
+    "url": "https://example.com/images/rani-ki-vav.jpg",
+    "location": "https://maps.google.com/?q=Rani+Ki+Vav",
+    "__v": 0
+  } 
+  
 multiple data like this
 
 ## Authentication
@@ -108,7 +109,7 @@ The API response will include the following fields:
 `GET https://travel-rest-api.onrender.com/data?name=junagadh`
 
 ### Response
- {
+     {
         "_id": "650eee335b85c5588ba52b94",
         "name": "Junagadh Fort",
         "state": "Gujrat",
@@ -116,7 +117,7 @@ The API response will include the following fields:
         "url": "https://example.com/images/junagadh-fort.jpg",
         "location": "https://maps.google.com/?q=Junagadh+Fort",
         "__v": 0
-}
+    }
 
 ## Get a specific data by state
 
@@ -126,20 +127,20 @@ The API response will include the following fields:
 
 ### Response
 
-    HTTP/1.1 200 OK
-    Status: 200 OK
-    Content-Type: application/json
-    Content-Length: 36
+  HTTP/1.1 200 OK
+  Status: 200 OK
+  Content-Type: application/json
+  Content-Length: 36
 
-    {
-        "_id": "650eee335b85c5588ba52b7b",
-        "name": "Rani Ki Vav",
-        "state": "Gujrat",
-        "city": "Patan",
-        "url": "https://example.com/images/rani-ki-vav.jpg",
-        "location": "https://maps.google.com/?q=Rani+Ki+Vav",
-        "__v": 0
-    }
+  {
+      "_id": "650eee335b85c5588ba52b7b",
+      "name": "Rani Ki Vav",
+      "state": "Gujrat",
+      "city": "Patan",
+      "url": "https://example.com/images/rani-ki-vav.jpg",
+      "location": "https://maps.google.com/?q=Rani+Ki+Vav",
+      "__v": 0
+  }
 ## Get a specific data by city
 
 ### Request ex. 
