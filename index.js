@@ -3,6 +3,11 @@ const app = express();
 const port = process.env.PORT || 5000;
 const DBconnect = require('./db/connection');
 
+// it is used when we send data when we need to send data in db in json format
+// it must be defined when we send data in db
+app.use(express.json())
+
+
 // Router
 const dataRouter = require('./routes/route');
 

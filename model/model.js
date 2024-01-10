@@ -23,4 +23,5 @@ const DBSchema = mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('traveldata',DBSchema);
+const dbSchema = mongoose.model('traveldata',DBSchema);
+module.exports = dbSchema;
