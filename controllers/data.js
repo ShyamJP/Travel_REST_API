@@ -1,9 +1,9 @@
+const dbSchema = require('../model/model');
 const DBmodel = require('../model/model')
 
-
 const getAllData = async(req,res) =>{
-    // for filter city
-    const { name , city , state} = req.query;
+    // for filter
+    const { name , city , state , sort , select} = req.query;
     const queryObj = {}
 
     if(state){
@@ -17,8 +17,20 @@ const getAllData = async(req,res) =>{
     if(city){
         queryObj.city = { $regex: city , $options : "i" };
     }
-
-    const filterData = await DBmodel.find(queryObj)
+    
+    let filterData = DBmodel.find(queryObj);
+    
+    if(select){
+        let selectTupple = select.split(",").join(" ");
+        filterData = filterData.select(selectTupple);
+    }
+        
+    if(sort){
+        let sortedData = sort.split(",").join(" ");
+        filterData = filterData.sort(sortedData);
+    }
+            
+    console.log(queryObj);
     const mydata = await filterData;
     // const myData = await DBmodel.find(req.query)
     res.status(200).json({mydata});
@@ -26,10 +38,3 @@ const getAllData = async(req,res) =>{
 
 module.exports = {getAllData};
 
-/*
-get all data
-const getAllData = async(req,res) =>{
-    const myData = await DBmodel.find(req.query)
-    res.status(200).json({myData});
-}
-*/

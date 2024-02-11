@@ -12,9 +12,8 @@ app.use(express.json())
 const dataRouter = require('./routes/route');
 
 // some error in console
-
 app.get('/',(req,res)=>{
-    res.send('Welcome to API Hub');
+    res.send('Welcome to Travel API');
 })
 
 app.use('/data',dataRouter);

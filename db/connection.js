@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
 mongoose.set('strictQuery', true);
 require('dotenv').config()
 const url = process.env.DB_URL
-// const url = "mongodb+srv://shyamjpankhaniya05:XWXhgsHXbxUYXkXG@data.hs6xlve.mongodb.net/?retryWrites=true&w=majority";
 
 const DBconnect = () =>{
     return mongoose.connect(url , 
