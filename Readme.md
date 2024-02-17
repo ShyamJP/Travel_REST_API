@@ -23,9 +23,6 @@ Briefly introduce your Gujarat Famous Places REST API. Describe its purpose, wha
 
 ## Getting Started
 
-Provide instructions on how to get started with your API. This should include information on installation, usage, and any prerequisites.
-
-
 ### Installation
 
 To install and run this API locally, follow these steps:
@@ -33,8 +30,8 @@ To install and run this API locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/gujarat-famous-places-api.git
-   cd gujarat-famous-places-api
+   git clone https://github.com/ShyamJP/Travel_REST_API.git
+   cd Travel_REST_API.git
 
 2. Install dependencies:
     npm install
@@ -45,7 +42,7 @@ To install and run this API locally, follow these steps:
 4. Usage
     - open in browser using link which is provide in console
     - write /data after url you get all data of API
-    - It also provide 
+    - It also provide all the features
 
 ## Endpoints
 
@@ -83,7 +80,7 @@ This API does not require authentication to access the endpoints. However, rate 
 
 ### Search Parameters
 
-- `placename`: The name of the place you want to search for.
+- `name`: The name of the place you want to search for.
 - `city`: The city where the place is located.
 - `state`: The state where the place is located.
 
@@ -91,7 +88,7 @@ This API does not require authentication to access the endpoints. However, rate 
 
 The API response will include the following fields:
 
-- `placename`: The name of the place.
+- `name`: The name of the place.
 - `city`: The city where the place is located.
 - `state`: The state where the place is located.
 - `url`: The URL of an image representing the place.
@@ -189,3 +186,51 @@ The API response will include the following fields:
             "location": "https://maps.google.com/?q=Junagadh+Fort",
             "__v": 0
             },
+## select particular field
+### Request ex. 
+    `GET https://travel-rest-api.onrender.com/data?select=city`
+
+### Response
+
+        {
+        "_id": "65c8a910d14fdc9db622becc",
+        "city": "Veraval"
+        },
+        {
+        "_id": "65c8a910d14fdc9db622becb",
+        "city": "Patan"
+        },
+        {
+        "_id": "65c8a910d14fdc9db622becf",
+        "city": "Mandvi"
+        },
+
+## Sort By particular field
+### Request ex. 
+    `GET https://travel-rest-api.onrender.com/data?sort=city`
+
+### Response
+
+        {
+            "_id": "65c8a910d14fdc9db622bed0",
+            "name": "Gandhi Ashram",
+            "state": "Gujarat",
+            "city": "Ahmedabad",
+            "url": "https://media.istockphoto.com/id/1327433319/photo/      gandhi-statue-at-sabarmati-ashram-ahmedabad-gujarat-india.jpg?s=612x612&w=0&k=20&   c=0IkYWCmx-WJnHtE_U-12iCs7Rk0VpIvd8-K4a3c_F58=",
+            "location": "https://maps.google.com/?q=Gandhi+Ashram",
+            "__v": 0
+        },
+        {
+            "_id": "65c8a910d14fdc9db622bed1",
+            "name": "Sarkhej Roza",
+            "state": "Gujarat",
+            "city": "Ahmedabad",
+            "url": "https://images.unsplash.com/photo-1603651481343-0f71466bb14a?   ixlib=rb-4.0.      3&  ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&    fit=crop&   w=1470&q=80",
+            "location": "https://maps.google.com/?q=Sarkhej+Roza",
+            "__v": 0
+        },
+        like this...
+
+
+### Thankyou for visit
+sugessions are most welcome! and feel free to contribute.
